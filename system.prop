@@ -1,0 +1,4 @@
+# system.prop for skomer
+
+rild.libpath=/system/lib/libsec-ril.so
+rild.libargs=-d /dev/ttyS0
