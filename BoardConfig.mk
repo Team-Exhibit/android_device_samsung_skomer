@@ -37,8 +37,5 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := skomer
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/skomer
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/skomer/bluetooth
