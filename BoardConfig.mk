@@ -37,5 +37,8 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := skomer
 
+# Assert minimum baseband version
+TARGET_BOARD_INFO_FILE ?= device/samsung/skomer/board-info.txt
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/skomer/bluetooth
